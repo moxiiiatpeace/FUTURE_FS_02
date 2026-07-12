@@ -1,1 +1,2 @@
 # FUTURE_FS_02
+Mini Client Lead Management System A simple and efficient web-based application to manage client leads, track their status, and organize follow-ups. Built to help small businesses and developers easily store, update, and manage lead information in one place. The system focuses on basic CRUD operations, user-friendly interface
