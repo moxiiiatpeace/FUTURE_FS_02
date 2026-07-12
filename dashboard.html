@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini CRM Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mini CRM Dashboard</h1>
+        <button id="logoutBtn">Logout</button>
+    </header>
+
+    <div class="stats">
+
+        <div class="card">
+            <h3>Total Leads</h3>
+            <p id="total">0</p>
+        </div>
+
+        <div class="card">
+            <h3>New Leads</h3>
+            <p id="newLeads">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Contacted</h3>
+            <p id="contacted">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Converted</h3>
+            <p id="converted">0</p>
+        </div>
+
+    </div>
+
+    <h2>Leads</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Source</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody id="leadTable">
+        </tbody>
+    </table>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+</html>
